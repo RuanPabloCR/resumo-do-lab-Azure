@@ -38,3 +38,11 @@ HDInsight: Processamento de Big Data com Hadoop, Spark, etc.
 Cognitive Services: APIs de visão, fala, linguagem e tomada de decisão.
 Azure Machine Learning: Criação, treinamento e deployment de modelos ML.
 Bot Services: Criação de chatbots integrados a vários canais.
+
+
+RESUMO DE CRIAR UMA INSTANCIA DE BANCO DE DADOS NA AZURE
+Configuração do plano e dimensionamento: Escolha o modelo de compra (vCore ou DTU), o desempenho (quantidade de CPU, memória, armazenamento) e opções de escalabilidade.
+Configurações adicionais (opcional): Defina regras de backup, redundância geográfica, autenticação (SQL, Azure AD), criptografia, entre outras opções.
+Configuração de rede: Defina regras de firewall e permissões de acesso (IPs que poderão se conectar ao banco).
+Revisar e criar: Revise todas as configurações e clique em “Criar”. A implantação leva alguns minutos.
+Conexão: Após a criação, é possível acessar a string de conexão, configurar ferramentas externas (como Azure Data Studio ou SQL Server Management Studio) e começar a utilizar o banco.
